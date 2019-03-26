@@ -1,0 +1,100 @@
+/**
+*
+* author: Adrián Linares - http://alinares.ga
+* description: Angie Trelles - Coaching
+*
+*/
+
+body {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.container {
+    padding: 40px 50px;
+    text-align:center;
+    border: 2px solid #000;
+}
+.under {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    color: rgb(203, 159, 77);
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.frase {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 2em;
+}
+.contacto {
+    margin-bottom: 2em;
+}
+.contacto .fa-facebook-f, 
+.fa-instagram, .fa-whatsapp,
+.fa-envelope{
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+}
+.contacto a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 1em;
+    text-decoration: none;
+    float: left;
+}
+.contacto a:hover:nth-child(1) { /*Facebook*/
+    color: #3b5998;
+}
+.contacto a:hover:nth-child(5) { /*Whatsapp*/
+    color: #25d366;
+}
+.contacto a:hover:nth-child(3) { /*Instagram*/
+    color: #fd1d1d;
+}
+.contacto a:hover:nth-child(7) { /*Envelope*/
+    color: rgb(203, 159, 77);
+}
+img {
+    margin-bottom: -6em;
+    background-color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+
+/*** Responsive ***/
+@media only screen and (max-width:414px) {
+    .container {
+        padding: 20px 20px;
+    }
+    .under{
+        font-size: 1em;
+    }  
+    .frase {
+        font-size: 1.5em;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+    .contacto .fa-facebook-f, 
+    .fa-instagram, .fa-whatsapp, 
+    .fa-envelope {
+        display: block;
+        text-align: center;
+    }
+    .contacto a {
+        float: none;
+    }
+    img {
+        width: 100%;
+    }
+}
+
+
+
